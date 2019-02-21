@@ -1,0 +1,7 @@
+example_events.exampleevent:
+ path: '/event-form'
+ defaults:
+   _title: 'Event Form'
+   _form: 'Drupal\example_events\Form\DemoEventDispatchForm'
+ requirements:
+   _permission: 'access content'
